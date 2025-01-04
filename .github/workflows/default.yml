@@ -16,7 +16,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v6
         name: Docker
         with:
-          registry: registry.cn-hangzhou.aliyuncs.com
+          registry: docker.io
           image: danielyin/xxl-job-executor-sample-springboot
           addLatest: true
           directory: .
